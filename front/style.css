@@ -1,0 +1,225 @@
+body {
+    background-color: lightgrey;
+}
+
+.all-cards {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px!important;
+    margin: 20px 20px 20px 20px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-radius: 1rem;
+}
+
+.card img {
+    height: 180px;
+    width: 180px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 10% auto;
+    border-radius: 1rem;
+}
+
+.card h4 {
+    display: flex;
+    justify-content: center;
+    margin: 5% auto;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card p {
+    font-family: 'Oswald', sans-serif;
+    width: 96%;
+    margin: 2% auto;
+    display: flex;
+    justify-content: center;
+}
+
+.title-create, .form-login, .form-register {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-create, .form-login, .form-register {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    margin-left: 100px;
+    margin-top: 70px;
+
+}
+
+.form-login, .form-register {
+    margin-top: 120px!important;
+    margin: 0;
+    width: 100%;
+    align-items: center;
+}
+
+.form-create .form-control {
+    margin-top: 5%;
+    width: 100px;
+}
+
+input.form-control {
+    border-radius: 2rem;
+    width: 200px;
+}
+
+/* .form-register {
+    height: 300px;
+} */
+
+.form-create .btn, .form-login .btn, .form-register .btn {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background: #ffb84d;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+nav ul li {
+    display: flex;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -1px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+input.btn.btn-danger, input.btn.btn-success {
+    margin-bottom: 0px;
+}
+
+.btns {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    height: 5%;
+    width: 100%;
+    background: lightgrey;
+}
+
+.btn-login, .btn-register, input.create-btn {
+    cursor: pointer;
+    background-color: orange;
+    font-size: 28px;
+    width: 150px;
+    transition: transform .1s;
+    font-weight: bold;
+    border: none;
+    border-radius: 2rem;
+    color: white;
+}
+
+input.create-btn {
+    margin-top: 20px;
+}
+
+.btn-login:hover, .btn-register:hover, input.create-btn:hover {
+    color: #fff;
+    background-color: orange;
+    border-color: none;
+    transform: scale(1.01);
+    transform: scale;
+    box-shadow: 4px 4px 3px #aaa;
+    display: flex;
+    justify-content: center;
+}
+
+form.create-all {
+    width: 100%!important;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input.create-title {
+    width: 200px!important;
+}
+
+input.create-price {
+    width: 60px!important;
+    margin: 0!important;
+    margin-top: 20px!important;
+}
+
+div.all-price {
+    display: flex;
+    align-items: center;
+}
+
+p.euro-price {
+    margin: 0!important;
+    margin-left: 10px!important;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px!important;
+}
+
+input.create-img {
+    width: 300px!important;
+    margin: 0!important;
+    margin-top: 20px!important;
+}
+
+.quantity-cart {
+    width: 50px!important;
+}
+
+.product {
+    display: flex!important;
+}
+
+.update-form {
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
